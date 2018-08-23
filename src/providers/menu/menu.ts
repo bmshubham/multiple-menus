@@ -4,7 +4,7 @@ import { MenuController } from 'ionic-angular';
 @Injectable()
 export class MenuProvider {
 
-  constructor(private menu: MenuController) {
+  constructor(public menu: MenuController) {
     menu.enable(true);
   } 
 
